@@ -81,7 +81,6 @@
 /* Body */
 
 body  {
-
     /* Common */
 
     img {
@@ -276,12 +275,30 @@ body  {
 
 #header {
     width: 100%;
+
+    #mainTitle {
+        color: #DC7960;
+    }
 }
 
 /* Main */
 
 #main {
     width: 100%;
+
+    #emailList {
+        box-shadow: 3px 3px rgb(225, 225, 225);
+    }
+
+    .list-group-item {
+        background-color: #DC7960;
+    }
+
+    #emailButton {
+        background-color: #24bce2;
+        color: white;
+        box-shadow: 3px 3px rgb(225, 225, 225);
+    }
 }
 
 /* Footer */
